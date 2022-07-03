@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+
+/* ============== Top/Welcome Section ============= */
+#top-section{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.header-area{
+    display: flex;
+    max-width: 1240px;
+    width: 96%;
+    margin: 0 auto;
+}
+.text-area{
+    margin-top: 50px;
+}
+.text-area h1{
+    font-size: 38px;
+    line-height: 70px;
+}
+.text-area h1 span{
+    color: #b6ab47;
+}
+.text-area h4{
+    margin: 20px 0;
+}
+.text-area p{
+    text-align: justify;
+    width: 70%;
+    margin: 5px 0 20px 0;
+}
+.text-area a{
+    border-radius: 5px;
+    background-color: #ee7727;
+    padding: 6px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* ============== Top/Welcome Section ============= */
+#bottom-section{
+    margin-top: 100px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.card-area{
+    display: flex;
+    max-width: 1240px;
+    width: 96%;
+    margin: 0 auto;
+}
+.card{
+    margin: 0 20px;
+    height: 300px;
+    box-shadow: 1px 1px 20px gray;
+}
