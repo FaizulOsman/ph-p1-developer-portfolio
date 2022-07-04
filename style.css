@@ -1,66 +1,153 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
-img{
+
+img {
     width: 100%;
 }
 
-/* ============== Top/Welcome Section ============= */
-#top-section{
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;
+.half-width {
+    width: 50%;
 }
-.header-area{
-    display: flex;
-    max-width: 1240px;
-    width: 96%;
-    margin: 0 auto;
-}
-.text-area{
-    margin-top: 50px;
-}
-.text-area h1{
-    font-size: 38px;
-    line-height: 70px;
-}
-.text-area h1 span{
-    color: #b6ab47;
-}
-.text-area h4{
-    margin: 20px 0;
-}
-.text-area p{
-    text-align: justify;
-    width: 70%;
-    margin: 5px 0 20px 0;
-}
-.text-area a{
+
+.button {
     border-radius: 5px;
-    background-color: #ee7727;
-    padding: 6px 20px;
+    background-image: linear-gradient(90deg, #fa9f91, tomato);
+    padding: 10px 25px;
+    font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-/* ============== Top/Welcome Section ============= */
-#bottom-section{
-    margin-top: 100px;
-    background-image: url(image/exp-bg.png);
+/* ============== First Section / Welcome Section ============= */
+#first-section {
+    background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-    background-position-y: center;
 }
-.card-area{
+
+.first-area {
     display: flex;
     max-width: 1240px;
     width: 96%;
     margin: 0 auto;
 }
-.card{
-    margin: 0 20px;
-    height: 300px;
+
+.first-area .text-area {
+    margin-top: 60px;
+}
+
+.text-area h1 {
+    font-size: 44px;
+    line-height: 70px;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.text-area h4 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.first-area .text-area p {
+    width: 70%;
+}
+
+.text-area p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+
+
+/* ============== Second Section / Welcome Section ============= */
+#second-section {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.second-area {
+    display: flex;
+    max-width: 1240px;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.second-area img {
+    width: 80%;
+}
+
+.second-area .text-area {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+/* ============== Top/Welcome Section ============= */
+#bottom-section {
+    margin: 100px 0;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-y: 140px;
+}
+
+#bottom-section #experiences {
+    font-size: 40px;
+}
+
+.card-area {
+    display: flex;
+    max-width: 1240px;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card {
+    height: 350px;
     box-shadow: 1px 1px 20px gray;
+    padding: 20px 0 0 20px;
+    width: 50%;
+}
+
+.card h1 {
+    font-size: 40px;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card1 {
+    margin-right: 25px;
+    border-left: 5px solid tomato;
+}
+
+.card2 {
+    margin-left: 25px;
+    border-left: 5px solid blue;
+}
+
+
+
+footer p {
+    text-align: center;
 }
