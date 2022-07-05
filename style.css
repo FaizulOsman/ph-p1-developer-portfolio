@@ -20,6 +20,15 @@ body {
     text-decoration: none;
 }
 
+.color-orange {
+    color: orange;
+}
+
+h4 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
 /* ============== First Section / Welcome Section ============= */
 #first-section {
     background-image: url(image/top-banner.png);
@@ -39,16 +48,7 @@ body {
 
 .text-area h1 {
     font-size: 44px;
-    line-height: 70px;
-}
-
-.color-orange {
-    color: orange;
-}
-
-.text-area h4 {
-    margin: 20px 0;
-    font-size: 20px;
+    line-height: 100px;
 }
 
 .first-area .text-area p {
@@ -103,7 +103,6 @@ body {
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-y: 140px;
 }
 
 #bottom-section #experiences {
@@ -127,11 +126,6 @@ body {
 
 .card h1 {
     font-size: 40px;
-}
-
-.card h4 {
-    font-size: 20px;
-    margin: 20px 0;
 }
 
 .card p {
