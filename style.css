@@ -1,3 +1,5 @@
+/* ============== COMMON CODE FOR ALL ============= */
+
 * {
     margin: 0;
     padding: 0;
@@ -70,7 +72,7 @@ h4 {
 
 
 
-/* ============== Second Section / Welcome Section ============= */
+/* ============== Second Section / Dream Big ============= */
 #second-section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
@@ -97,7 +99,7 @@ h4 {
 
 
 
-/* ============== Top/Welcome Section ============= */
+/* ============== Bottom Section / Experiences ============= */
 #bottom-section {
     margin: 100px 0;
     background-image: url(image/exp-bg.png);
@@ -143,6 +145,7 @@ h4 {
 }
 
 
+/* ============== Footer ============= */
 
 footer p {
     text-align: center;
