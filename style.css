@@ -1,3 +1,5 @@
+/* ============== COMMON CODE FOR ALL ============= */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,15 @@ body {
     text-decoration: none;
 }
 
+.color-orange {
+    color: orange;
+}
+
+h4 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
 /* ============== First Section / Welcome Section ============= */
 #first-section {
     background-image: url(image/top-banner.png);
@@ -39,16 +50,7 @@ body {
 
 .text-area h1 {
     font-size: 44px;
-    line-height: 70px;
-}
-
-.color-orange {
-    color: orange;
-}
-
-.text-area h4 {
-    margin: 20px 0;
-    font-size: 20px;
+    line-height: 100px;
 }
 
 .first-area .text-area p {
@@ -70,7 +72,7 @@ body {
 
 
 
-/* ============== Second Section / Welcome Section ============= */
+/* ============== Second Section / Dream Big ============= */
 #second-section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
@@ -97,13 +99,12 @@ body {
 
 
 
-/* ============== Top/Welcome Section ============= */
+/* ============== Bottom Section / Experiences ============= */
 #bottom-section {
     margin: 100px 0;
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-y: 140px;
 }
 
 #bottom-section #experiences {
@@ -122,16 +123,11 @@ body {
     height: 350px;
     box-shadow: 1px 1px 20px gray;
     padding: 20px 0 0 20px;
-    width: 50%;
+    width: 46%;
 }
 
 .card h1 {
     font-size: 40px;
-}
-
-.card h4 {
-    font-size: 20px;
-    margin: 20px 0;
 }
 
 .card p {
@@ -139,16 +135,17 @@ body {
 }
 
 .card1 {
-    margin-right: 25px;
+    margin-right: 4%;
     border-left: 5px solid tomato;
 }
 
 .card2 {
-    margin-left: 25px;
+    margin-left: 4%;
     border-left: 5px solid blue;
 }
 
 
+/* ============== Footer ============= */
 
 footer p {
     text-align: center;
